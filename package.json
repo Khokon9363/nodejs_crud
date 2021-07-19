@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "A structured nodejs application",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=staging && nodemon server.js",
+    "production": "SET NODE_ENV=production && nodemon server.js"
+  },
+  "author": "Hridoy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
